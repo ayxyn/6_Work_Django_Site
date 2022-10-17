@@ -134,3 +134,5 @@ $('#languageHolder').click(function () {
     return
   }
 })
+
+$("p").hide();
