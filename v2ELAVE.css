@@ -411,7 +411,25 @@ input:disabled {
     margin-bottom: 0 !important;
     height: auto;
 }
+#files .row img{
+    max-width: 100px;
+}
 
+
+@media only screen and (max-width: 992px) {
+     
+    #files .row img{
+        max-width: 60px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+     
+    #files .row img{
+        max-width: 40px;
+    }
+    
+}
 #logoSlogan {
     width: 70%;
     /* color: rgb(135, 154, 168); */
