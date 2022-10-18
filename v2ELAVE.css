@@ -224,6 +224,48 @@ nav ul.navbar-nav {
 
 }
 
+#section_3 .row{
+    justify-content: center;
+}
+#section_3 .row .card {
+    position: relative;
+}
+
+#section_3 .row .card .btn {
+    position: absolute;
+    bottom: 20px;
+    transform: translate(-50%);
+}
+
+#section_3 .row .card img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+#section_3 .row .card-body {
+    height: 35vh;
+}
+
+#section_4 .row {
+    justify-content: center;
+}
+#section_4 .row .col-lg-4 {
+    height:25vw;
+    margin-bottom: 3rem;
+}
+ 
+#section_4 .row .col-lg-4 img{
+    height:25vw;
+    object-fit: cover;
+}
+ 
+
+#section_4 .row .col-lg-4 .work-thumb{
+    height: 25vw!important;
+}
+ 
+
+
 footer.site-footer .address {
     background-image: url('./ELAVE/adressImage.png');
     width: 100%;
@@ -268,6 +310,33 @@ footer.site-footer .address {
         background-color: #175572;
         color: white;
     }
+
+    #section_3 .row .card img {
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    #section_3 .row .card-body {
+        height: 35vh;
+    }
+
+
+  
+    #section_4 .row .col-lg-4 {
+        height:auto;
+        margin-bottom: 3rem;
+    }
+     
+    #section_4 .row .col-lg-4 img{
+        height:auto;
+        object-fit: cover;
+    }
+     
+    
+    #section_4 .row .col-lg-4 .work-thumb{
+        height: auto!important;
+    }
+     
 }
 
 #myBtnn.active {
@@ -387,6 +456,14 @@ label.inline-block {
 }
 
 
+
+#calculator-table .thead-dark th {
+    background: #F8F9FA !important;
+    color: rgb(43, 43, 43);
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: 500;
+    border-color: inherit;
+}
 
 
 input::-webkit-outer-spin-button,
