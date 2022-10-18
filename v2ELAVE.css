@@ -571,6 +571,7 @@ input:disabled {
 
 #serviceDetails {
     font-weight: 300;
+    padding-top:160px;
 }
 
 #serviceDetails .accordion-button::after {
@@ -614,10 +615,11 @@ input:disabled {
         width: 30%;
     }
 
-    /* .navbar-nav .nav-link {
-        padding-left: 0px !important;
-    } */
 
+    #serviceDetails {
+    font-weight: 300;
+    padding-top:50px;
+}
 
 
     #languageHolder .language a {
