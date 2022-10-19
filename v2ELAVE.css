@@ -229,6 +229,7 @@ nav ul.navbar-nav {
 }
 #section_3 .row .card {
     position: relative;
+    height: 80vh!important;
 }
 
 #section_3 .row .card .btn {
@@ -236,15 +237,14 @@ nav ul.navbar-nav {
     bottom: 20px;
     transform: translate(-50%);
 }
-
-#section_3 .row .card img {
-    height: 60vh;
+  #section_3 .row .card img {
+    height: 60%;
     object-fit: cover;
 }
-
+/*
 #section_3 .row .card-body {
     height: 35vh;
-}
+} */
 
 #section_4 .row {
     justify-content: center;
@@ -311,14 +311,14 @@ footer.site-footer .address {
         color: white;
     }
 
-    #section_3 .row .card img {
+    /* #section_3 .row .card img {
         height: 40vh;
         object-fit: cover;
     }
 
     #section_3 .row .card-body {
         height: 35vh;
-    }
+    } */
 
 
   
